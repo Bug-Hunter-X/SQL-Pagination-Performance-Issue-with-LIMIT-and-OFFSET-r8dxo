@@ -1,0 +1,1 @@
+This repository demonstrates a common performance problem in SQL when using `LIMIT` and `OFFSET` for pagination.  When the `OFFSET` value gets large, query execution time increases dramatically, even if the `LIMIT` is small.  The provided SQL file (`bug.sql`) illustrates this issue, and a solution is provided (`bugSolution.sql`).
